@@ -533,3 +533,28 @@ public class Q15Discrium {
 	}
 
 ==========================================================================================================================
+
+
+Q-16:- Write a java program to print Fibonacci Series.
+
+public class Q16Fibonacci {
+	public static void fibonacciSeries(int n) {
+		int x=0;
+		int y=1;
+		int z=0;
+		while(z<=n) {
+			System.out.print(z+" ");
+			x=y;
+			y=z;
+			z=x+y;
+		}
+	}
+
+	public static void main(String[] args) {
+		fibonacciSeries(9);
+
+	}
+
+}
+
+==========================================================================================================================
